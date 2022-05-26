@@ -1,0 +1,25 @@
+footer{
+    color:#caced1 !important;
+ }
+
+ li{
+     margin-top: 20px ;
+     margin-bottom: 20px ;
+ }
+ 
+.Careers{ 
+    cursor: pointer;
+    color: #1E88E5;
+}
+
+.row-1{
+    background-color:#0B1516 !important;
+}
+.images{
+	width: 150px;
+	height: 100px;
+}
+.row-2{
+    
+    background-color: #0B1516 !important;
+}

@@ -1,0 +1,35 @@
+<!-- <p>menu works!</p>
+<ul class="list-group">
+	<li 
+		*ngFor="let f of result.famille"
+		class="list-group-item">
+		{{ f.nom }}
+	</li>
+
+	
+  </ul> -->
+
+
+  <div class="container mt-5 mb-3">
+	<div class="sec-title">
+		<div class="title white-heading">Categories</div>
+	  </div>
+    <div class="row section">
+        <div class="col-md-4" *ngFor="let f of result.famille">
+            <div class="card p-3 mb-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+						<img  class="images" src="{{../../../../assets/large_choozia.png"/>
+                    </div>
+                    <div class="badge"> <span>Category</span> </div>
+                </div>
+				<div class="mt-5">
+					<h3 class="heading">{{ f.nom }}</h3>
+				</div>
+				<div class="ms-2 c-details">
+					
+				</div>
+            </div>
+        </div>
+       </div>
+</div>

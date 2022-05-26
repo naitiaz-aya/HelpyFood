@@ -1,0 +1,23 @@
+
+
+<div class="container mx-auto mt-4">
+  <div class="row">
+    <div  class="col-md-4" *ngFor="let p of result.produit" >
+    <!-- <ng-container > -->
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">{{ p.nom }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{ p.category }}</h6>
+          <h6 class="card-subtitle mb-2 text-muted">{{ p.prix }}&euro;</h6>
+          <p class="card-text">
+            {{ p.description }}
+          </p>
+          <button routerLink="/cart" class="btn mr-2" (click)="addtocart(p)">
+            Add to cart
+          </button>
+        </div>
+      </div>
+    <!-- </ng-container> -->
+  </div>
+  </div>
+</div>
